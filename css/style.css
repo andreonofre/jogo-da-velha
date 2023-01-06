@@ -1,0 +1,49 @@
+* {
+
+}
+
+body {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.gui {
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gui-turn {
+    text-transform: uppercase;
+}
+
+.board-colum {
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.board-cell {
+    position: relative;
+    background-color: #6c6c6c;
+    color: #fff;
+    height: 120px;
+    width: 120px;
+    margin: 2px;
+    font-size: 3rem;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #6c6c6c;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
